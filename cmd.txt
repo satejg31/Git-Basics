@@ -18,5 +18,8 @@ e] git restore --staged <file name>
 Here we unstage the added file to change it again add to repo
 
 Fired the git restore --staged <file name>
-
 After this we can again add the file to the repo and then commit it to the repo
+
+f] git log => We will get the log file means the trace of all the changes that were 
+made to this repo in the whole history. Basically the track of all the commits made
+to the repo
