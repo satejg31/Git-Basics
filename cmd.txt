@@ -31,4 +31,10 @@ when we fire the git status command we can see that it prompts you have deleted 
 you can restore it immediately but you can also keep it in stash means you can use the same 
 when you want it back.
 
+h] git stash 
+This will send the changes made to the repo in the backgroubd it wont be reflected 
+dont forget to add the files to the git repo 
+git add .
+git stash
+
 
