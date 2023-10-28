@@ -8,4 +8,15 @@ git status command.
 
 c] git add temp.txt => Add the file to the repositry
 Here we have added and then this is reflected when we again fire the command 
-git status. 
+git status.
+
+d] git commit -m "Description of commit"
+Here we are commiting the repo to the git and here we also give the normal 
+descriptive line for the same.
+
+e] git restore --staged <file name> 
+Here we unstage the added file to change it again add to repo
+
+Fired the git restore --staged <file name>
+
+After this we can again add the file to the repo and then commit it to the repo
