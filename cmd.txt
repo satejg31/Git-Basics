@@ -1,0 +1,11 @@
+a] git init => initialize the directory
+
+b] git status => get current status of the repository
+Here we can also see all the files that are created in the repository and its
+changes are not been registered so here we have created a temp.txt file and 
+that particular changes are not mentioned so we get an warning after we fire the 
+git status command.
+
+c] git add temp.txt => Add the file to the repositry
+Here we have added and then this is reflected when we again fire the command 
+git status. 
