@@ -42,3 +42,59 @@ Here we are adding attaching the git Repo with our github repository
 remote => We are managing URLS
 add => adding a URL
 origin => Name to be recoginzed for the URL
+
+j] git push remote origin 
+Here we are pushing our whole repo to the github repo Git-Basics
+
+k] git branch branch1
+Here we created a new branch which means now a separate code maintenance 
+is done over here to activate this branch we fire the git checkout branch1
+Then we will be shifted to the new branch. And now add the commits will be made to the 
+current branch that is active and thats are branch1
+Basically this feature of git is for the better maintenance of the code 
+Consider a situation we are working on a new functionality and that functionality is not 
+proper and not that best that everyone could use the same so we create a new branch 
+add our code to the branch and then when its functionality is acknowledged we can 
+add this code to the main branch and here the main branch is called as "master"
+
+l] Now if we want to merge the branch code we fire the 
+git merge branch1
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+1] How can you access other persons code 
+Go to that repo and fork it. when you fork it that particular repo will be avaiable 
+in your github and then you can clone the same.
+
+2] we can clone that repo and we access it in our machine.
+
+git clone "URL"
+
+Now you can access the same code 
+
+3] Now the main reason we fork a git repo is to add, to change, to modify or to refer 
+the repo. So now the repo we cloned is called as the upstream repo 
+So we add a new remote name to the same by,
+
+git remote add upstream "URL of the upstream Repo"
+
+4] we can see all the remote repo name by firing the git remote -v command 
+
+(base) satejg31@satejg31-Latitude-E5450:~/Git$ git remote -v
+origin	https://github.com/satejg31/Git-Basics (fetch)
+origin	https://github.com/satejg31/Git-Basics (push)
+upstream	https://github.com/pinak0722/commclassrooomgit.git (fetch)
+upstream	https://github.com/pinak0722/commclassrooomgit.git (push)
+
+
+5] Now when we want to add some changes to the git repo
+so firstly, we have cloned it locally ok 
+nextly, after cloning we changed the files.
+Its always recommended to create a new branch when we have done changes to the same.
+
+git branch <branchName>
+git checkout <branchName>
+
+Now, if we want our changes to be reflected in the main branch then we do the same by 
+making a pull request of the same.
+
