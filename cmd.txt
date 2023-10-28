@@ -23,3 +23,12 @@ After this we can again add the file to the repo and then commit it to the repo
 f] git log => We will get the log file means the trace of all the changes that were 
 made to this repo in the whole history. Basically the track of all the commits made
 to the repo
+
+If we deleted a file by mistake we can get it back by getting the hash code 
+from the git log and then fire the git reset command and then nextly,
+we have the deleted file back but its not reflecting.
+when we fire the git status command we can see that it prompts you have deleted an xyz file 
+you can restore it immediately but you can also keep it in stash means you can use the same 
+when you want it back.
+
+
