@@ -37,4 +37,8 @@ dont forget to add the files to the git repo
 git add .
 git stash
 
-
+i] git remote add origin "Your git URL"
+Here we are adding attaching the git Repo with our github repository
+remote => We are managing URLS
+add => adding a URL
+origin => Name to be recoginzed for the URL
